@@ -8,7 +8,6 @@ class Database {
         user: 'root',
         password: '123456',
         db: 'dart_mysql');
-
     return MySqlConnection.connect(settings);
   }
 }
